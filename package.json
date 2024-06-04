@@ -1,0 +1,13 @@
+{
+    "name": "micro-frontend-test",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "start:products": "pnpm --filter products start",
+        "start:container": "pnpm --filter container start",
+        "start:all": "concurrently \"pnpm run start:products\" \"pnpm run start:container\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
