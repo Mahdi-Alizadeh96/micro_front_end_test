@@ -3,9 +3,10 @@
     "private": true,
     "version": "0.1.0",
     "scripts": {
-        "start:products": "pnpm --filter products start",
-        "start:cart": "pnpm --filter cart start",
+        "start:auth": "pnpm --filter auth start",
+        "start:marketing": "pnpm --filter marketing start",
         "start:container": "pnpm --filter container start",
+        "start:dashboard": "pnpm --filter dashboard start",
         "start:all": "concurrently \"pnpm run start:products\" \"pnpm run start:cart\" \"pnpm run start:container\""
     },
     "devDependencies": {

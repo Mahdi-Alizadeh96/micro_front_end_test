@@ -1,4 +1,5 @@
 packages:
-  - products
+  - auth
   - container
-  - cart
+  - marketing
+  - dashboard
