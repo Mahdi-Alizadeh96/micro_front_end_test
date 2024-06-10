@@ -7,7 +7,7 @@
         "start:marketing": "pnpm --filter marketing start",
         "start:container": "pnpm --filter container start",
         "start:dashboard": "pnpm --filter dashboard start",
-        "start:all": "concurrently \"pnpm run start:products\" \"pnpm run start:cart\" \"pnpm run start:container\""
+        "start:all": "concurrently \"pnpm run start:dashboard\" \"pnpm run start:marketing\" \"pnpm run start:auth\" \"pnpm run start:container\""
     },
     "devDependencies": {
         "concurrently": "^8.2.2"
