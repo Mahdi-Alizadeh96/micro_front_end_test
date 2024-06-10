@@ -1,6 +1,6 @@
 import { merge } from 'webpack-merge';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import commonConfig from './webpack.common';
+import commonConfig from './webpack.common.js';
 
 const devConfig = {
   mode: 'development',
