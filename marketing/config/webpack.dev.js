@@ -1,6 +1,6 @@
-import { merge } from 'webpack-merge';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import commonConfig from './webpack.common.js';
+const { merge } = require('webpack-merge');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const commonConfig = require('./webpack.common');
 
 const devConfig = {
   mode: 'development',
@@ -17,4 +17,4 @@ const devConfig = {
   ],
 };
 
-export default merge(commonConfig, devConfig);
+module.exports = merge(commonConfig, devConfig);
