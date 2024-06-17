@@ -1,11 +1,4 @@
 node_modules
 package-lock.json
 
-./auth/node_modules
-./auth/package-lock.json
-./container/node_modules
-./container/package-lock.json
-./marketing/node_modules
-./marketing/package-lock.json
-./dashboard/node_modules
-./dashboard/package-lock.json
+dist
