@@ -98,8 +98,32 @@ To run the project, follow these steps:
    pnpm run start:all
    ```
 
-   This will start the applications on different ports:
-   - Container App: [http://localhost:8080](http://localhost:8080)
-   - Marketing App: [http://localhost:8081](http://localhost:8081)
-   - Auth App: [http://localhost:8082](http://localhost:8082)
-   - Dashboard App: [http://localhost:8083](http://localhost:8083)
+   project will run in : [http://localhost:8080](http://localhost:8080)
+
+### Running Individual Applications
+
+For solo development, you can run each app on its own port:
+
+1. **Start the Auth app:**
+
+   ```sh
+   pnpm run start:auth
+   ```
+
+   Access it at [http://localhost:8082](http://localhost:8082)
+
+2. **Start the Marketing app:**
+
+   ```sh
+   pnpm run start:marketing
+   ```
+
+   Access it at [http://localhost:8081](http://localhost:8081)
+
+3. **Start the Dashboard app:**
+
+   ```sh
+   pnpm run start:dashboard
+   ```
+
+   Access it at [http://localhost:8083](http://localhost:8083)
