@@ -1,6 +1,7 @@
 # Micro Frontend Test
+### [Udemy Microfrontends with React: A Complete Developer's Guide project](https://www.udemy.com/course/microfrontend-course/)
 
-This repository contains a micro frontend architecture example. The project demonstrates how to build a scalable frontend application by splitting it into independent, smaller micro-applications that can be developed, deployed, and maintained separately. Each micro-frontend can be developed with different technologies, providing flexibility and allowing teams to work independently.
+This repository contains a micro frontend architecture example, developed as part of the training from the Udemy course [Microfrontend Course](https://www.udemy.com/course/microfrontend-course/). The project demonstrates how to build a scalable frontend application by splitting it into independent, smaller micro-applications that can be developed, deployed, and maintained separately. Each micro-frontend can be developed with different technologies, providing flexibility and allowing teams to work independently. The training provides a comprehensive guide to implementing micro frontends using modern web development practices.
 
 ## Structure
 
