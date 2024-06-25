@@ -4,10 +4,10 @@ This repository contains a micro frontend architecture example. The project demo
 
 ## Structure
 
-- **auth**: Handles user authentication and authorization.
-- **container**: The main application shell that loads and manages other micro-frontends.
-- **dashboard**: Displays user-specific information and widgets.
-- **marketing**: Manages public-facing content.
+- **auth (React)**: Handles user authentication and authorization.
+- **container (React)**: The main application shell that loads and manages other micro-frontends.
+- **dashboard (Vue)**: Displays user-specific information and widgets.
+- **marketing (React)**: Manages public-facing content.
 
 ## Technologies Used
 
